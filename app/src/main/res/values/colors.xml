@@ -10,4 +10,6 @@
     <color name="gray">#555555</color>
     <color name="back_color">#121212</color>
     <color name="colorGreen">#4caf50</color>
+    <color name="grey">#AFAFAF</color>
+    <color name="error">#FF4949</color>
 </resources>
