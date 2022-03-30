@@ -10,6 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.Window
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.ruzibekov.todolist_uz.R
 import com.ruzibekov.todolist_uz.databinding.FragmentUserProfileBinding
@@ -20,6 +21,7 @@ class UserProfileFragment : Fragment() {
     lateinit var binding: FragmentUserProfileBinding
     private lateinit var dialogChangeName: Dialog
     private lateinit var dialogChangePassword: Dialog
+    lateinit var root:View
 
     @SuppressLint("InflateParams")
     override fun onCreateView(
@@ -27,6 +29,7 @@ class UserProfileFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
         binding = FragmentUserProfileBinding.inflate(layoutInflater)
+        root = inflater.inflate(R.layout.fragment_user_profile, container, false)
 
         binding.tvAppSetting.setOnClickListener {
 
@@ -73,6 +76,10 @@ class UserProfileFragment : Fragment() {
             )
 
             bottumSheet.show()
+        }
+
+        binding.tvAppSetting.setOnClickListener {
+            findNavController().navigate(R.id.settingsFragment)
         }
 
         return binding.root

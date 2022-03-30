@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:paddingVertical="10dp"
+    tools:context=".presentation.fragments.SettingsFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:layout_marginEnd="10dp"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_ios_24"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:paddingHorizontal="18dp"
+        android:layout_marginStart="10dp"
+        android:paddingVertical="2dp"
+        android:text="@string/text_settings"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/text_settings"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBack" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_ChangeAppColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_brush"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:text="@string/text_change_app_color"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_ChangeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_text"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:text="@string/text_change_app_typography"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ChangeAppColor" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_ChangeLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_language_square"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:text="@string/text_change_app_language"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ChangeText" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/text_import"
+        android:textColor="@color/grey"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_ChangeLanguage" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvImport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_resource_import"
+        android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:text="@string/text_import_from_google_calendar"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

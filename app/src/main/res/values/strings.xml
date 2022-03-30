@@ -23,4 +23,14 @@
     <string name="text_enter_new_password">Enter new password</string>
     <string name="text_new_password">New password</string>
     <string name="text_old_password">Old password</string>
+    <string name="text_change_account_image">Change account Image</string>
+    <string name="take_take_picture">Take picture</string>
+    <string name="text_import_from_gallery">Import from gallery</string>
+    <string name="text_import_from_google_drive">Import from Google Drive</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_change_app_color">Change app color</string>
+    <string name="text_change_app_typography">Change app typography</string>
+    <string name="text_change_app_language">Change app language</string>
+    <string name="text_import_from_google_calendar">Import from Google calendar</string>
+    <string name="text_import">Import</string>
 </resources>

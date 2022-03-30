@@ -7,12 +7,11 @@ import com.ruzibekov.todolist_uz.presentation.fragments.FocusModeFragment
 
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+        override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
 
-        //Test
-        supportFragmentManager.beginTransaction().replace(R.id.mainFragmentContainer, FocusModeFragment()).commit()
     }
 
 }
