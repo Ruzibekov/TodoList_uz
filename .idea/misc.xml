@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1285" />
+        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_divider.xml" value="0.141" />
         <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_icon_settings.xml" value="0.1285" />
         <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_setting.xml" value="0.1285" />
         <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/shape1.xml" value="0.1285" />
+        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/shape2.xml" value="0.141" />
+        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/shape_empty.xml" value="0.141" />
+        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/dialog_change_name.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/dialog_change_password.xml" value="0.1796875" />
         <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/fragment_focus_mode.xml" value="0.1796875" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/fragment_user_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/fragment_user_profile.xml" value="0.12" />
       </map>
     </option>
   </component>
