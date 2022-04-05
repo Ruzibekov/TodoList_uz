@@ -3,25 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable-v24/drawable_circle_green.xml" value="0.129" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable-v24/drawable_circle_red.xml" value="0.129" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.129" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1285" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_divider.xml" value="0.141" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_icon_settings.xml" value="0.1285" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_launcher_background.xml" value="0.129" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/ic_setting.xml" value="0.1285" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/shape1.xml" value="0.1285" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/shape2.xml" value="0.141" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/drawable/shape_empty.xml" value="0.141" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/dialog_bottom_change_image.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/dialog_change_name.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/dialog_change_password.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/fragment_focus_mode.xml" value="0.1796875" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/fragment_settings.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/layout/fragment_user_profile.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/MaX/TodoList_uz/app/src/main/res/menu/my_navigation.xml" value="0.1796875" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable-v24/drawable_circle_green.xml" value="0.152" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable-v24/drawable_circle_red.xml" value="0.152" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/drawable_circle_green.xml" value="0.181" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/drawable_circle_red.xml" value="0.181" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_app.xml" value="0.1695" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_back_arrow.xml" value="0.1695" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_flag.xml" value="0.161" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_instagram.xml" value="0.181" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_key.xml" value="0.1695" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.181" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_send.xml" value="0.161" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_timer.xml" value="0.161" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/ic_warning.xml" value="0.181" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/outlined_rounded_blue_4.xml" value="0.1695" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/outlined_rounded_white_gray_4.xml" value="0.1695" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/rounded_blue_button_4.xml" value="0.1575" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/rounded_gray_6.xml" value="0.181" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/top_round_gray_10.xml" value="0.151" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/drawable/top_round_gray_5.xml" value="0.161" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout-v28/fragment_focus_mode.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/0001.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/0002.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/dialog_add_task.xml" value="0.22" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/fragment_focus_mode.xml" value="0.25" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/fragment_intro.xml" value="0.1841880341880342" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/fragment_onboading.xml" value="0.22" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/fragment_start.xml" value="0.22" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/item_application.xml" value="0.22" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/layout/item_settings.xml" value="0.22" />
+        <entry key="..\:/Android Projects/TodoList_uz/app/src/main/res/menu/bottom_menu.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

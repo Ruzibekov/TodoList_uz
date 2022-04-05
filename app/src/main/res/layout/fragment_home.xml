@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/back_color"
+    tools:context=".presentation.fragments.home.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/index"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white_87"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="end"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/ic_launcher_background"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/intro_image_01"
+            android:layout_width="227dp"
+            android:layout_height="227dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_text_01"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/white_87"/>
+
+        <TextView
+            android:fontFamily="@font/lato_regular"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white_87"
+            android:text="@string/intro_text_bottom_01"/>
+    </LinearLayout>
+
+</FrameLayout>

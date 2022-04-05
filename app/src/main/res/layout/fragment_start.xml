@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_color"
+    android:padding="24dp"
+    tools:context=".presentation.fragments.intro.StartFragment">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="@string/popback" />
+
+    <TextView
+        android:layout_marginTop="58dp"
+        android:id="@+id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:text="@string/welcome_to_uptodo"
+        android:textSize="32sp"
+        android:textColor="@color/white_87"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_marginTop="26dp"
+        android:layout_below="@id/welcomeText"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_67"
+        android:text="Please login to your account or create new account to continue"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_above="@id/startCreateAccount"
+        android:background="@drawable/rounded_blue_button_4"
+        android:layout_width="match_parent"
+        android:text="LOGIN"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lato_regular"
+        android:layout_height="48dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="28dp"
+        android:text="Create account"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_regular"
+        android:textColor="@color/white"
+        android:background="@drawable/outlined_rounded_blue_4"
+        android:id="@+id/startCreateAccount"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+
+</RelativeLayout>

@@ -1,40 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    android:background="@color/back_color"
-    android:gravity="center_horizontal"
-    tools:context=".presentation.fragments.FocusModeFragment">
 
-    <TextView
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_color"
+    android:layout_width="match_parent"
+    tools:context=".presentation.fragments.focus_mode.FocusModeFragment">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="13dp"
-        android:gravity="center"
-        android:text="@string/focus_mode"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
-
-    <RelativeLayout
         android:gravity="center_horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp">
 
-        <ProgressBar
-            android:id="@+id/progressBarCircle"
-            style="?android:attr/progressBarStyleHorizontal"
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="13dp"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:text="@string/focus_mode"
+            android:textColor="@color/white_87"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp">
+
+            <ProgressBar
+                android:id="@+id/progressBarCircle"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="213dp"
+                android:layout_height="213dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/drawable_circle_green"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="50"
+                android:progressDrawable="@drawable/drawable_circle_red"
+                android:rotation="-90" />
+
+            <TextView
+                android:id="@+id/timeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/lato_medium"
+                android:text="@string/zero"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <TextView
             android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:layout_marginTop="74dp"
-            android:background="@drawable/drawable_circle_green"
-            android:indeterminate="false"
-            android:max="100"
-            android:progress="5"
-            android:progressDrawable="@drawable/drawable_circle_red"
-            android:rotation="-90" />
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:text="@string/focus_text"
+            android:textColor="@color/white" />
 
-    </RelativeLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonStartFocusing"
+            android:layout_width="177dp"
+            android:layout_height="48dp"
+            android:fontFamily="@font/lato_regular"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_blue_button_4"
+            android:gravity="center"
+            android:text="@string/start_focusing"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
-</LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato_regular"
+                android:text="@string/overview"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <com.skydoves.powerspinner.PowerSpinnerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/rounded_gray_6"
+                android:gravity="center"
+                android:hint="@string/this_week"
+                android:padding="6dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="12sp"
+                app:spinner_item_array="@array/weeks"
+                app:spinner_popup_animation="bounce" />
+        </FrameLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartFocusMode"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="@string/applications"
+            android:textColor="@color/white_87"
+            android:textSize="20sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerApplications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_application" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/back_color"
+    android:padding="24dp"
+    tools:context=".presentation.fragments.intro.OnboadingFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_regular"
+        android:text="Skip"
+        android:textColor="@color/white_44"
+        android:textSize="16sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/imageSlider"
+            android:layout_width="213dp"
+            android:layout_height="277dp"
+            app:iss_auto_cycle="true"
+            android:src="@drawable/intro_image_01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manage your tasks"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="You can easily manage all of your daily tasks in DoMe for free"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white_87"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/lato_regular"
+            android:text="Back"
+            android:textColor="@color/white_44"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="90dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end|center_vertical"
+            android:background="@drawable/rounded_blue_button_4"
+            android:fontFamily="@font/lato_regular"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+</FrameLayout>

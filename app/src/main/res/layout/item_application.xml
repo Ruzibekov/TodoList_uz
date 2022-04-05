@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:background="@color/gray_application"
+    android:layout_height="56dp">
+
+    <ImageView
+        android:id="@+id/appImage"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_instagram"
+        android:layout_width="32dp"
+        android:layout_height="32dp"/>
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/appImage"
+        android:fontFamily="@font/lato_regular"
+        android:text="Instagram"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/appTime"
+        android:textSize="12sp"
+        android:fontFamily="@font/lato_regular"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@id/appImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You spent 4h on Instagram today"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageWarning"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_warning"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_marginVertical="8dp"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/imageWarning"
+        android:background="@color/white_gray" />
+</RelativeLayout>

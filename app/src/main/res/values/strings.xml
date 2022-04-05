@@ -3,6 +3,18 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="focus_mode">Focus Mode</string>
+    <string name="zero">00:00</string>
+    <string name="focus_text">While your focus mode is on, all of your notifications will be off</string>
+    <string name="start_focusing">Start Focusing</string>
+    <string name="overview">Overview</string>
+    <string name="applications">Applications</string>
+    <string name="uptodo">UpTodo</string>
+    <string name="popback">PopBack</string>
+    <string name="welcome_to_uptodo">Welcome to UpTodo</string>
+    <string name="index">Index</string>
+    <string name="intro_text_01">What do you want to do today?</string>
+    <string name="intro_text_bottom_01">Tap + to add your tasks</string>
+    <string name="this_week">This Week</string>
     <string name="text_profile">Profile</string>
     <string name="text_name">Martha Hays</string>
     <string name="text_task_done">Task done</string>
@@ -27,7 +39,6 @@
     <string name="take_take_picture">Take picture</string>
     <string name="text_import_from_gallery">Import from gallery</string>
     <string name="text_import_from_google_drive">Import from Google Drive</string>
-    <string name="text_settings">Settings</string>
     <string name="text_change_app_color">Change app color</string>
     <string name="text_change_app_typography">Change app typography</string>
     <string name="text_change_app_language">Change app language</string>
